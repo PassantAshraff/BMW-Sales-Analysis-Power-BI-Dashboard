@@ -121,11 +121,5 @@ The following DAX measures were built to power the dashboard's KPIs and visuals:
 3. If prompted, refresh the data source and point it to `BMW_Sales_Data.csv` in the same directory
 4. Explore the dashboard using the slicers (Year, Region, Model, Channel) to filter views dynamically
 
----
 
-## 📌 Notes
-
-- Revenue values are in **USD**
-- The dataset contains ~778 rows with null values that were excluded from aggregations
-- Some date entries are duplicated across regions, which is expected (same date, different markets)
 
