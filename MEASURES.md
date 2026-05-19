@@ -231,9 +231,6 @@ VAR SVGImageURL =
 
 RETURN
     SVGImageURL
-```
-
-> ⚠️ **Setup Required:** Set the Data Category of this measure to **Image URL** in Power BI Model view.
 
 ---
 
@@ -270,9 +267,6 @@ VAR SVGImageURL =
     "<circle cx='"& LastSparkXValue & "' cy='" & 50 - LastSparkYValue & "' r='4' stroke='" & LineColour & "' stroke-width='3' fill='" & PointColour & "' />" &
     "</svg>"
 RETURN SVGImageURL
-```
-
-> ⚠️ **Setup Required:** Set the Data Category of this measure to **Image URL** in Power BI Model view. Uses `%23` instead of `#` for Firefox compatibility.
 
 ---
 
